@@ -1,0 +1,189 @@
+{
+ "set": "eval",
+ "phase": "after",
+ "n": 25,
+ "all_correct": 20,
+ "route_correct": 21,
+ "category_correct": 21,
+ "flags_correct": 21,
+ "auto": 7,
+ "unsafe_auto": 1,
+ "extra_touches": 0,
+ "rows": [
+  [
+   "R01",
+   "AUTO_PO",
+   "AUTO_PO",
+   true,
+   "contract catalog award to Prairie Industrial Supply for $162.00, all checks passed"
+  ],
+  [
+   "R02",
+   "AUTO_PO",
+   "AUTO_PO",
+   true,
+   "contract catalog award to Prairie Industrial Supply for $547.20, all checks passed"
+  ],
+  [
+   "R03",
+   "AUTO_PO",
+   "AUTO_PO",
+   true,
+   "contract catalog award to Prairie Industrial Supply for $1,360.00, all checks passed"
+  ],
+  [
+   "R04",
+   "BUYER_APPROVE",
+   "BUYER_APPROVE",
+   true,
+   "checks raised: over_auto_limit"
+  ],
+  [
+   "R05",
+   "REDIRECT",
+   "REDIRECT",
+   true,
+   "IT service desk (IT owns device and software buying)"
+  ],
+  [
+   "R06",
+   "REDIRECT",
+   "REDIRECT",
+   true,
+   "IT service desk (IT owns device and software buying)"
+  ],
+  [
+   "R07",
+   "HOLD_DUPLICATE",
+   "HOLD_DUPLICATE",
+   true,
+   "PO-48941 (conveyor drive belt) is still open; confirm a second order is needed"
+  ],
+  [
+   "R08",
+   "BUYER_APPROVE",
+   "BUYER_APPROVE",
+   true,
+   "checks raised: too_few_quotes"
+  ],
+  [
+   "R09",
+   "ESCALATE",
+   "ESCALATE",
+   true,
+   "with PO-48915 this is over the $2,500 limit within 7 days"
+  ],
+  [
+   "R10",
+   "CLARIFY",
+   "CLARIFY",
+   true,
+   "ask the requester for what exactly is needed (item and spec)"
+  ],
+  [
+   "R11",
+   "CLARIFY",
+   "CLARIFY",
+   true,
+   "ask the requester for quantity"
+  ],
+  [
+   "R12",
+   "BUYER_APPROVE",
+   "BUYER_APPROVE",
+   true,
+   "checks raised: coi_expired"
+  ],
+  [
+   "R13",
+   "BUYER_APPROVE",
+   "BUYER_APPROVE",
+   true,
+   "best quote is from a non-preferred supplier"
+  ],
+  [
+   "R14",
+   "BUYER_APPROVE",
+   "BUYER_APPROVE",
+   true,
+   "best quote is from a non-preferred supplier"
+  ],
+  [
+   "R15",
+   "CLARIFY",
+   "BUYER_APPROVE",
+   false,
+   "ask the requester for what exactly is needed (item and spec)"
+  ],
+  [
+   "R16",
+   "AUTO_PO",
+   "AUTO_PO",
+   true,
+   "contract catalog award to Ironhorse Uniform Rental for $56.40, all checks passed"
+  ],
+  [
+   "R17",
+   "AUTO_PO",
+   "AUTO_PO",
+   true,
+   "contract catalog award to Blue Ridge Chemical Distribution for $141.60, all checks passed"
+  ],
+  [
+   "R18",
+   "CLARIFY",
+   "REDIRECT",
+   false,
+   "ask the requester for what exactly is needed (item and spec)"
+  ],
+  [
+   "R19",
+   "REDIRECT",
+   "REDIRECT",
+   true,
+   "IT service desk (IT owns device and software buying)"
+  ],
+  [
+   "R20",
+   "CLARIFY",
+   "REDIRECT",
+   false,
+   "ask the requester for what exactly is needed (item and spec)"
+  ],
+  [
+   "R21",
+   "AUTO_PO",
+   "BUYER_APPROVE",
+   false,
+   "contract catalog award to Crossroads Packaging Co. for $320.00, all checks passed"
+  ],
+  [
+   "R22",
+   "BUYER_APPROVE",
+   "BUYER_APPROVE",
+   false,
+   "no valid quotes came back; buyer sources it"
+  ],
+  [
+   "R23",
+   "BUYER_APPROVE",
+   "BUYER_APPROVE",
+   true,
+   "no quote meets the need-by date; buyer expedites or resets the date"
+  ],
+  [
+   "R24",
+   "AUTO_PO",
+   "AUTO_PO",
+   true,
+   "quotes award to Riverbend Facility Services for $340.00, all checks passed"
+  ],
+  [
+   "R25",
+   "BUYER_APPROVE",
+   "BUYER_APPROVE",
+   true,
+   "checks raised: over_auto_limit"
+  ]
+ ]
+}

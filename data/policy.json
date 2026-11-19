@@ -1,0 +1,27 @@
+{
+  "_note": "Example policy for one US plant's indirect buying. Every number here is an assumption to be replaced with the customer's own policy in week 1.",
+  "currency": "USD",
+  "auto_po_limit": 2500,
+  "three_quote_threshold": 1000,
+  "min_quotes": 3,
+  "max_price_increase_vs_last_po": 0.10,
+  "split_window_days": 7,
+  "capex_threshold": 5000,
+  "redirect_categories": {
+    "IT hardware and software": "IT service desk (IT owns device and software buying)",
+    "Capital equipment": "Capex request (needs an approved appropriation)"
+  },
+  "hazmat_review": "EHS reviews the safety data sheet before the first order of a new chemical",
+  "onsite_service_requires_coi": true,
+  "categories": [
+    "MRO supplies",
+    "Cutting tools and tooling",
+    "Safety and PPE",
+    "Facilities services",
+    "Uniforms and laundry",
+    "Packaging and shipping supplies",
+    "Chemicals and lubricants",
+    "IT hardware and software",
+    "Capital equipment"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+ "set": "holdout",
+ "phase": "after",
+ "n": 10,
+ "all_correct": 8,
+ "route_correct": 9,
+ "category_correct": 8,
+ "flags_correct": 9,
+ "auto": 2,
+ "unsafe_auto": 0,
+ "extra_touches": 0,
+ "rows": [
+  [
+   "H01",
+   "AUTO_PO",
+   "AUTO_PO",
+   true,
+   "contract catalog award to Prairie Industrial Supply for $146.25, all checks passed"
+  ],
+  [
+   "H02",
+   "BUYER_APPROVE",
+   "BUYER_APPROVE",
+   true,
+   "checks raised: over_auto_limit"
+  ],
+  [
+   "H03",
+   "REDIRECT",
+   "REDIRECT",
+   true,
+   "IT service desk (IT owns device and software buying)"
+  ],
+  [
+   "H04",
+   "CLARIFY",
+   "BUYER_APPROVE",
+   false,
+   "ask the requester for what exactly is needed (item and spec)"
+  ],
+  [
+   "H05",
+   "AUTO_PO",
+   "AUTO_PO",
+   true,
+   "contract catalog award to Keystone Tool and Abrasives for $1,875.00, all checks passed"
+  ],
+  [
+   "H06",
+   "REDIRECT",
+   "REDIRECT",
+   true,
+   "EHS reviews the safety data sheet before the first order of a new chemical"
+  ],
+  [
+   "H07",
+   "HOLD_DUPLICATE",
+   "HOLD_DUPLICATE",
+   true,
+   "PO-48940 (pillow block bearing 1-7/16 in) is still open; confirm a second order is needed"
+  ],
+  [
+   "H08",
+   "CLARIFY",
+   "CLARIFY",
+   false,
+   "ask the requester for what exactly is needed (item and spec), quantity"
+  ],
+  [
+   "H09",
+   "BUYER_APPROVE",
+   "BUYER_APPROVE",
+   true,
+   "checks raised: coi_expired"
+  ],
+  [
+   "H10",
+   "CLARIFY",
+   "CLARIFY",
+   true,
+   "ask the requester for cost center"
+  ]
+ ]
+}

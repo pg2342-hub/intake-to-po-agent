@@ -1,0 +1,293 @@
+{
+ "_note": "All suppliers, prices and dates are synthetic. Names are invented and do not refer to real companies.",
+ "suppliers": [
+  {
+   "id": "S01",
+   "name": "Prairie Industrial Supply",
+   "categories": [
+    "MRO supplies",
+    "Safety and PPE",
+    "Cutting tools and tooling",
+    "Chemicals and lubricants"
+   ],
+   "status": "active",
+   "preferred_for": [
+    "MRO supplies",
+    "Safety and PPE"
+   ],
+   "onsite_services": false,
+   "coi_expires": null,
+   "lead_days": 2
+  },
+  {
+   "id": "S02",
+   "name": "Keystone Tool and Abrasives",
+   "categories": [
+    "Cutting tools and tooling"
+   ],
+   "status": "active",
+   "preferred_for": [
+    "Cutting tools and tooling"
+   ],
+   "onsite_services": false,
+   "coi_expires": null,
+   "lead_days": 4
+  },
+  {
+   "id": "S03",
+   "name": "Riverbend Facility Services",
+   "categories": [
+    "Facilities services"
+   ],
+   "status": "active",
+   "preferred_for": [
+    "Facilities services"
+   ],
+   "onsite_services": true,
+   "coi_expires": "2027-03-31",
+   "lead_days": 3
+  },
+  {
+   "id": "S04",
+   "name": "Heartland Mechanical Contractors",
+   "categories": [
+    "Facilities services"
+   ],
+   "status": "active",
+   "preferred_for": [],
+   "onsite_services": true,
+   "coi_expires": "2026-10-31",
+   "lead_days": 5
+  },
+  {
+   "id": "S05",
+   "name": "Ironhorse Uniform Rental",
+   "categories": [
+    "Uniforms and laundry"
+   ],
+   "status": "active",
+   "preferred_for": [
+    "Uniforms and laundry"
+   ],
+   "onsite_services": false,
+   "coi_expires": null,
+   "lead_days": 7
+  },
+  {
+   "id": "S06",
+   "name": "Crossroads Packaging Co.",
+   "categories": [
+    "Packaging and shipping supplies"
+   ],
+   "status": "active",
+   "preferred_for": [
+    "Packaging and shipping supplies"
+   ],
+   "onsite_services": false,
+   "coi_expires": null,
+   "lead_days": 3
+  },
+  {
+   "id": "S07",
+   "name": "Delta Fluid Power",
+   "categories": [
+    "MRO supplies"
+   ],
+   "status": "active",
+   "preferred_for": [],
+   "onsite_services": false,
+   "coi_expires": null,
+   "lead_days": 1
+  },
+  {
+   "id": "S08",
+   "name": "Great Plains Bearing and Drive",
+   "categories": [
+    "MRO supplies"
+   ],
+   "status": "active",
+   "preferred_for": [],
+   "onsite_services": false,
+   "coi_expires": null,
+   "lead_days": 3
+  },
+  {
+   "id": "S09",
+   "name": "Summit Lift Truck Service",
+   "categories": [
+    "Facilities services",
+    "MRO supplies"
+   ],
+   "status": "active",
+   "preferred_for": [],
+   "onsite_services": true,
+   "coi_expires": "2027-01-15",
+   "lead_days": 2
+  },
+  {
+   "id": "S10",
+   "name": "Blue Ridge Chemical Distribution",
+   "categories": [
+    "Chemicals and lubricants"
+   ],
+   "status": "active",
+   "preferred_for": [
+    "Chemicals and lubricants"
+   ],
+   "onsite_services": false,
+   "coi_expires": null,
+   "lead_days": 4
+  },
+  {
+   "id": "S11",
+   "name": "Northline Safety Products",
+   "categories": [
+    "Safety and PPE"
+   ],
+   "status": "inactive",
+   "preferred_for": [],
+   "onsite_services": false,
+   "coi_expires": null,
+   "lead_days": 3
+  },
+  {
+   "id": "S12",
+   "name": "Metro Electrical Wholesale",
+   "categories": [
+    "MRO supplies"
+   ],
+   "status": "active",
+   "preferred_for": [],
+   "onsite_services": false,
+   "coi_expires": null,
+   "lead_days": 2
+  },
+  {
+   "id": "S13",
+   "name": "Tri-County HVAC Services",
+   "categories": [
+    "Facilities services"
+   ],
+   "status": "active",
+   "preferred_for": [],
+   "onsite_services": true,
+   "coi_expires": "2027-06-30",
+   "lead_days": 4
+  }
+ ],
+ "catalog": [
+  {
+   "sku": "GLV-N8",
+   "item": "nitrile gloves, 8 mil, box of 100",
+   "category": "Safety and PPE",
+   "supplier": "S01",
+   "unit_price": 14.5,
+   "uom": "box",
+   "noun": "glove"
+  },
+  {
+   "sku": "GLS-Z87",
+   "item": "safety glasses, Z87.1 clear",
+   "category": "Safety and PPE",
+   "supplier": "S01",
+   "unit_price": 3.25,
+   "uom": "each",
+   "noun": "glasses"
+  },
+  {
+   "sku": "EAR-32",
+   "item": "foam earplugs, NRR 32, box of 200 pairs",
+   "category": "Safety and PPE",
+   "supplier": "S01",
+   "unit_price": 27.0,
+   "uom": "box",
+   "noun": "earplug"
+  },
+  {
+   "sku": "WD-6203",
+   "item": "ball bearing 6203-2RS",
+   "category": "MRO supplies",
+   "supplier": "S01",
+   "unit_price": 6.8,
+   "uom": "each",
+   "noun": "bearing"
+  },
+  {
+   "sku": "FLT-20",
+   "item": "HVAC pleated filter 20x25x2 MERV 13",
+   "category": "MRO supplies",
+   "supplier": "S01",
+   "unit_price": 11.4,
+   "uom": "each",
+   "noun": "filter"
+  },
+  {
+   "sku": "ZIP-14",
+   "item": "cable ties, 14 in, pack of 100",
+   "category": "MRO supplies",
+   "supplier": "S01",
+   "unit_price": 9.75,
+   "uom": "pack",
+   "noun": "cable ties"
+  },
+  {
+   "sku": "EM-1012",
+   "item": "carbide end mill 1/2 in 4-flute",
+   "category": "Cutting tools and tooling",
+   "supplier": "S02",
+   "unit_price": 48.0,
+   "uom": "each",
+   "noun": "end mill"
+  },
+  {
+   "sku": "GRD-45",
+   "item": "grinding disc 4.5 in, box of 25",
+   "category": "Cutting tools and tooling",
+   "supplier": "S02",
+   "unit_price": 62.5,
+   "uom": "box",
+   "noun": "grinding disc"
+  },
+  {
+   "sku": "STR-48",
+   "item": "stretch wrap 18 in x 1500 ft",
+   "category": "Packaging and shipping supplies",
+   "supplier": "S06",
+   "unit_price": 22.0,
+   "uom": "roll",
+   "noun": "stretch wrap"
+  },
+  {
+   "sku": "PAL-4840",
+   "item": "wood pallet 48x40 heat treated",
+   "category": "Packaging and shipping supplies",
+   "supplier": "S06",
+   "unit_price": 16.0,
+   "uom": "each",
+   "noun": "pallet"
+  },
+  {
+   "sku": "UNI-WK",
+   "item": "weekly uniform service, per employee",
+   "category": "Uniforms and laundry",
+   "supplier": "S05",
+   "unit_price": 9.4,
+   "uom": "employee-week",
+   "noun": "uniform"
+  },
+  {
+   "sku": "LUB-EP2",
+   "item": "EP2 lithium grease, 14 oz cartridge",
+   "category": "Chemicals and lubricants",
+   "supplier": "S10",
+   "unit_price": 5.9,
+   "uom": "each",
+   "noun": "grease"
+  }
+ ],
+ "approved_chemicals_with_sds": [
+  "EP2 lithium grease",
+  "isopropyl alcohol 99%",
+  "WD-40"
+ ]
+}

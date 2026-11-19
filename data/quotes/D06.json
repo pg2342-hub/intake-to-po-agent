@@ -1,0 +1,4 @@
+{"_note": "synthetic supplier replies", "replies": [
+ {"supplier": "S07", "total": 288.00, "unit_price": 48.00, "lead_days": 1},
+ {"supplier": "S08", "total": 330.00, "unit_price": 55.00, "lead_days": 3},
+ {"supplier": "S01", "total": 318.00, "unit_price": 53.00, "lead_days": 2}]}

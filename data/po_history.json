@@ -1,0 +1,15 @@
+{
+  "_note": "Synthetic purchase order history for one plant. Used for last-price, duplicate and split-order checks.",
+  "pos": [
+    {"po": "PO-48811", "date": "2026-11-12", "requester": "maintenance.lead2", "category": "MRO supplies", "supplier": "S07", "item": "hydraulic hose assembly 1/2 in x 36 in", "qty": 6, "unit_price": 41.00, "amount": 246.00, "status": "closed"},
+    {"po": "PO-48790", "date": "2026-10-28", "requester": "maintenance.lead1", "category": "MRO supplies", "supplier": "S08", "item": "gearbox motor coupling", "qty": 2, "unit_price": 182.00, "amount": 364.00, "status": "closed"},
+    {"po": "PO-48902", "date": "2026-11-14", "requester": "facilities.mgr", "category": "Facilities services", "supplier": "S03", "item": "dock door repair", "qty": 1, "unit_price": 1850.00, "amount": 1850.00, "status": "open"},
+    {"po": "PO-48915", "date": "2026-11-13", "requester": "paint.supervisor", "category": "Safety and PPE", "supplier": "S01", "item": "half-face respirator cartridges OV/P100", "qty": 40, "unit_price": 18.50, "amount": 740.00, "status": "closed"},
+    {"po": "PO-48920", "date": "2026-11-16", "requester": "toolroom.lead", "category": "Cutting tools and tooling", "supplier": "S02", "item": "carbide inserts CNMG 432", "qty": 100, "unit_price": 21.00, "amount": 2100.00, "status": "open"},
+    {"po": "PO-48931", "date": "2026-11-17", "requester": "shipping.lead", "category": "Packaging and shipping supplies", "supplier": "S06", "item": "corrugated boxes 24x18x18", "qty": 300, "unit_price": 3.10, "amount": 930.00, "status": "open"},
+    {"po": "PO-48770", "date": "2026-09-30", "requester": "maintenance.lead1", "category": "MRO supplies", "supplier": "S12", "item": "LED high bay fixture 150W", "qty": 10, "unit_price": 129.00, "amount": 1290.00, "status": "closed"},
+    {"po": "PO-48650", "date": "2026-08-21", "requester": "facilities.mgr", "category": "Facilities services", "supplier": "S13", "item": "rooftop HVAC unit quarterly maintenance", "qty": 1, "unit_price": 1400.00, "amount": 1400.00, "status": "closed"},
+    {"po": "PO-48940", "date": "2026-11-17", "requester": "maintenance.lead2", "category": "MRO supplies", "supplier": "S08", "item": "pillow block bearing 1-7/16 in", "qty": 8, "unit_price": 64.00, "amount": 512.00, "status": "open"},
+    {"po": "PO-48941", "date": "2026-11-17", "requester": "maintenance.lead2", "category": "MRO supplies", "supplier": "S08", "item": "conveyor drive belt", "qty": 4, "unit_price": 310.00, "amount": 1240.00, "status": "open"}
+  ]
+}
